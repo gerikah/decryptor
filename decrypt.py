@@ -27,4 +27,7 @@ for i in range(len(input_string)):
 # if ! , change to u
     elif input_string[i] == "!":
         output_string += "u"
+# else, consonants remains the same
+    else:
+        output_string += input_string[i]
 # print output
