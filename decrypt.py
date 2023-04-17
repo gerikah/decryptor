@@ -10,6 +10,9 @@ print(border + "\033[95m" + pyfiglet.figlet_format("\nEnter a string to decrypt"
 input_string = input("".center(68))
 output_string = ""
 
+input_string = input_string.lower()
+output_string = output_string.lower()
+
 # check each character
 for i in range(len(input_string)):
 # if * , change to a
