@@ -31,3 +31,5 @@ for i in range(len(input_string)):
     else:
         output_string += input_string[i]
 # print output
+print(border + "\033[95m" + pyfiglet.figlet_format("\nDecrypted string", justify = "center", font = "cybermedium", width = 175))
+print(("\033[7m" + "\n\n\n" + border + output_string.center(180) + border + "\n\n\n" ))
