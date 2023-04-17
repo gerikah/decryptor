@@ -19,6 +19,8 @@ for i in range(len(input_string)):
     elif input_string[i] == "&":
         output_string += "e"
 # if # , change to i
+    elif input_string[i] == "#":
+        output_string += "i"
 # if + , change to o
 # if ! , change to u
 # print output
