@@ -6,6 +6,10 @@ title = ("\n\n" + border + "\n\n" + "\033[95m" + pyfiglet.figlet_format("Decrypt
 print(title)
 
 # input from user
+print(border + "\033[95m" + pyfiglet.figlet_format("\nEnter a string to decrypt", justify = "center", font = "cybermedium", width = 175))
+input_string = input("".center(68))
+output_string = ""
+
 # check each character
 # if * , change to a
 # if & , change to e
