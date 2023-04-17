@@ -11,7 +11,10 @@ input_string = input("".center(68))
 output_string = ""
 
 # check each character
+for i in range(len(input_string)):
 # if * , change to a
+    if input_string[i] == "*":
+        output_string += "a"
 # if & , change to e
 # if # , change to i
 # if + , change to o
